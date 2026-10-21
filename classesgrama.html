@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes gramáticais
+    </title>
+    <link rel="stylesheet" href="classesgrama.css">
+    <script src="classesgrama.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="logotipo-canto-da-tela">
+            <img id="logotipo-cabecario" src="assets/logotipo.png" alt="logotipo">
+        </div>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="Conteúdo.html" class="login">Entrada</a>
+            <a href="#" class="confg">
+                <img src="assets/Ícone de engrenagem marfim minimalista.png" alt="Configurações">
+            </a>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <a href="Conteúdo.html" class="voltar-materias">
+            ← Voltar às matérias
+        </a>
+
+        <div class="titulo-estudo">
+            <img src="assets/icone10.png" alt="" class="icone-materia">
+
+            <div>
+                <h1>Português</h1>
+                <p class="subtitulo">Classes gramáticais</p>
+            </div>
+        </div>
+
+        <div class="info-progresso">
+            <div class="contador" id="contador">
+                Carta 1 de 12
+            </div>
+
+            <div class="progresso" id="progresso" role="progressbar" aria-label="Progresso dos flashcards"
+                aria-valuemin="0" aria-valuemax="12" aria-valuenow="1">
+                <div class="barra" id="barra"></div>
+            </div>
+
+            <div class="porcentagem" id="porcentagem">
+                ⭐ 8% concluído
+            </div>
+        </div>
+
+        
+        <div class="card-container" id="areaCarta" role="button" tabindex="0" aria-label="Virar flashcard">
+
+            <div class="card" id="carta">
+
+                
+                <div class="lado frente">
+                    <div class="etiqueta">Pergunta</div>
+
+                    <div class="pergunta" id="pergunta">
+                        O que é uma fração?
+                    </div>
+
+                    <div class="dica">
+                        Toque para revelar a resposta ✨
+                    </div>
+                </div>
+
+                
+                <div class="lado verso">
+                    <div class="etiqueta">Resposta</div>
+
+                    <div class="resposta" id="resposta">
+                        
+                    </div>
+
+                    <div class="dica">
+                        Muito bem! Continue estudando 🎉
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        
+        <div class="botoes">
+
+            <button type="button" class="secundario" id="botaoAnterior">
+                ← Voltar
+            </button>
+
+            <button type="button" class="principal" id="botaoVirar">
+                Virar carta ↻
+            </button>
+
+            <button type="button" class="secundario" id="botaoProxima">
+                Próxima →
+            </button>
+
+        </div>
+
+        
+        <div class="botoes botoes-extra">
+
+            <button type="button" class="secundario" id="botaoEmbaralhar">
+                🔀 Embaralhar
+            </button>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
